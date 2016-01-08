@@ -1,4 +1,4 @@
-title: 使用Flexible实现手淘H5页面的终端适配 笔记之(1)
+title: 使用Flexible实现手淘H5页面的终端适配 笔记之(1) 简介篇
 date: 2016-01-08 09:50:36
 tags:
  - webapp
