@@ -1,9 +1,11 @@
-title: 使用Flexible实现手淘H5页面的终端适配
+title: 使用Flexible实现手淘H5页面的终端适配 笔记之(1)
 date: 2016-01-08 09:50:36
 tags:
  - webapp
  - mobile
  - h5
+ - Flexible
+ - 终端适配
 categories:
   - mobile
 ---
@@ -199,6 +201,34 @@ height: 2px；
 因为其直接影响到页面显示质量，对于如何实现图片适配，再此不做过多详细阐述。这里盗用了@南宮瑞揚根据mir.aculo.us翻译的一张信息图：
 
 ![](https://camo.githubusercontent.com/55960bfa1419eabdee47efdd2f863a9ab50b3203/687474703a2f2f7777772e773363706c75732e636f6d2f73697465732f64656661756c742f66696c65732f626c6f67732f3230313231322f726574696e612d7765622d31302e6a7067)
+
+
+### meta标签
+
+`<meta>` 标签有很多种，而这里要着重说的是viewport的meta标签，
+其主要用来告诉浏览器如何规范的渲染Web页面，而你则需要告诉它视窗有多大。
+在开发移动端页面，我们需要设置meta标签如下：
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+```
+
+代码以显示网页的屏幕宽度定义了视窗宽度。网页的比例和最大比例被设置为100%。
+
+留个悬念，因为后面的解决方案中需要重度依赖meta标签。
+
+
+### CSS单位rem
+
+
+在 [W3C](http://www.w3.org/TR/css3-values/#rem-unit)规范中是这样描述rem的:
+
+>font size of the root element.
+
+简单的理解，`rem` 就是相对于根元素 `<html>` 的font-size来做计算。
+而我们的方案中使用rem单位，是能轻易的根据 `<html>` 的font-size计算出元素的盒模型大小。
+而这个特色对我们来说是特别的有益处。
+
 
 
 
