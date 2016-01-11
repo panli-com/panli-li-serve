@@ -36,12 +36,6 @@ categories:
 [插件详细介绍 和 安装](https://github.com/browser-extensions/appRemove)
 
 
-## 数据录入
-
->为了能及时跟进 各个厂家的 页面的改动 , 
->我们将数据统一后台录入为标准，前台调用接口的形式,来操作厂家 页面元素的去除
-
-
 ## 淘宝首页头部元素寻找
 
 ![](http://zanjs.b0.upaiyun.com/image/1/f5/52ba910f9917a128b2b0ec64f710f.png)
@@ -51,12 +45,22 @@ categories:
 
 我们要录入的元素 就是 id=后面 双引号里面的值 和 class=后面 双引号里面的值
 
+## 数据录入
+
+>为了能及时跟进 各个厂家的 页面的改动 , 
+>我们将数据统一后台录入为标准，前台调用接口的形式,来操作厂家 页面元素的去除
+
+
 ### 后台录入如下数据
 
 ![](http://zanjs.b0.upaiyun.com/image/4/ae/dd0f6acb0780d2fb129bc0e6e26b3.png)
 
 
 >id 以#开头，class以.开头
+> 录入的数据 以 英文的 `,` 作为分割
+
+
+
 
 
 ### 淘宝客户端广告
