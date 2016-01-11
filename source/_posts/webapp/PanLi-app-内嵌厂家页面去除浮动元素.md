@@ -18,9 +18,9 @@ categories:
 
 ## 注入方案
 
->在思考许久后， 原声 app 那边 说可以 执行 `javascript` ;
+>在思考许久后， 原生 app 那边 说可以 执行 `javascript`代码 ;
 
-后来我们就开始执行操作， 我试着写了一下 执行 网页 `dom` 元素的 `javascript` 脚本
+后来我们就开始执行操作， 我们试着写了一下 执行 网页 `dom` 元素的 `javascript` 脚本
 
 最终发现可以操作 web view 厂家页面的 `dom` 元素，可行性方案已找到。
 
