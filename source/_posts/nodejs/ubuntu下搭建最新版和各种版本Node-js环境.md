@@ -15,26 +15,27 @@ categories:
 
 ```ssh
 root@iZ28krk4xlkZ:/home/git/node# git clone https://github.com/creationix/nvm.git
-Cloning into 'nvm'...
-remote: Counting objects: 4399, done.
-remote: Compressing objects: 100% (20/20), done.
-remote: Total 4399 (delta 4), reused 0 (delta 0), pack-reused 4379
-Receiving objects: 100% (4399/4399), 1.11 MiB | 23.00 KiB/s, done.
-Resolving deltas: 100% (2578/2578), done.
-Checking connectivity... done.
+
+    Cloning into 'nvm'...
+    remote: Counting objects: 4399, done.
+    remote: Compressing objects: 100% (20/20), done.
+    remote: Total 4399 (delta 4), reused 0 (delta 0), pack-reused 4379
+    Receiving objects: 100% (4399/4399), 1.11 MiB | 23.00 KiB/s, done.
+    Resolving deltas: 100% (2578/2578), done.
+    Checking connectivity... done.
 ```
 
 
 ### 安装nvm
 
 
-- 下载之后，进入目录直行./install.sh。
-- 安装之后输入nvm还是提示没有这时候需要直行source ./nvm.sh
+- 下载之后，进入目录直行 `./install.sh`
+- 安装之后输入 `nvm` 还是提示没有这时候需要直行 `source ./nvm.sh`
 
 
 > 将 `source /root/nvm/nvm.sh` 写入 `~/.bashrc` 或者其启动脚本中，
 > 这样在系统启动的时候会自动执行这条指令。
-> 开机就可以使用nvm了；
+> 开机就可以使用 `nvm` 了；
 
 
 ```
