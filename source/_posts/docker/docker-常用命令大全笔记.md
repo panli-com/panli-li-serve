@@ -31,6 +31,8 @@ docker ps -a  //为查看所有的容器，包括已经停止的。
 
 
 ```
+
+
 docker rm $(docker ps -a -q)
 ```
 
@@ -62,6 +64,18 @@ docker images
 
 ```
 docker rmi $(docker images | grep none | awk '{print $3}' | sort -r)
+
+不行就用下面这个
+
+docker rmi `docker images`
+```
+
+### 删除 所有 none 镜像
+
+>在删除 none 镜像时，先删除关联的 容器
+
+```
+docker rmi $(docker images | awk '/^<none>/ { print $3 }')
 ```
 
 
@@ -73,6 +87,13 @@ docker rmi $(docker images | grep none | awk '{print $3}' | sort -r)
 docker run --name redmine -p 9003:80 -p 9023:22 -d -v /var/redmine/files:/redmine/files -v /var/redmine/mysql:/var/lib/mysql sameersbn/redmine
 ```
 
+### 进入指定容器 
+
+>`docker ps` 查询需要进入容器的 `id`
+
+```
+docker exec -it 40c330755e61 /bin/bash
+```
 
 ### 一个容器连接到另一个容器
 
