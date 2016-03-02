@@ -95,6 +95,13 @@ docker run --name redmine -p 9003:80 -p 9023:22 -d -v /var/redmine/files:/redmin
 docker exec -it 40c330755e61 /bin/bash
 ```
 
+### 查看容易 分配 的 ip
+
+
+```
+docker inspect --format='{{.NetworkSettings.IPAddress}}' $CONTAINER_ID
+```
+
 ### 一个容器连接到另一个容器
 
 
