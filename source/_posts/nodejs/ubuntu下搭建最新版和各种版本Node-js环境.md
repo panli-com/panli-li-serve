@@ -15,14 +15,13 @@ categories:
 
 ```ssh
 root@iZ28krk4xlkZ:/home/git/node# git clone https://github.com/creationix/nvm.git
-
-    Cloning into 'nvm'...
-    remote: Counting objects: 4399, done.
-    remote: Compressing objects: 100% (20/20), done.
-    remote: Total 4399 (delta 4), reused 0 (delta 0), pack-reused 4379
-    Receiving objects: 100% (4399/4399), 1.11 MiB | 23.00 KiB/s, done.
-    Resolving deltas: 100% (2578/2578), done.
-    Checking connectivity... done.
+Cloning into 'nvm'...
+remote: Counting objects: 4399, done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 4399 (delta 4), reused 0 (delta 0), pack-reused 4379
+Receiving objects: 100% (4399/4399), 1.11 MiB | 23.00 KiB/s, done.
+Resolving deltas: 100% (2578/2578), done.
+Checking connectivity... done.
 ```
 
 
