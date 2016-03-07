@@ -7,9 +7,7 @@ categories:
   - chrome扩展
 ---
 
-##　介绍
-
->v0.0.2
+## 介绍
 
 凡是基于 chrome 内核的 浏览器 都可以使用本 扩展: 例如市面上 常见的  qq浏览器 、百度浏览器 、360浏览器 、猎豹浏览器等等
 
@@ -18,8 +16,71 @@ categories:
 
 - [谷歌浏览器下载](http://rj.baidu.com/soft/detail/14744.html?ald)
 
-- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx)
+- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=2016030403)
 
+
+## 版本更新 (当前最新版本 v0.0.5)
+
+**请定期访问本页面查看最近版本号及时下载 、移除旧的、 重新安装新版**
+
+
+>v0.0.6
+
+- 凡是有支付宝交易号的 ，都提交到后台
+- 目前好像每个订单都会有支付宝交易号,因此失败订单号常规下 不会出现
+
+
+>v0.0.5
+
+- 运单号 和 物流公司的值 如果为 "—" 则转为 "" (空字符)
+
+
+>v0.0.4
+
+- 修复 天猫 页面订单号抓取错误, 改为url 参数 获取
+- 新增进度显示
+- 新增 显示 抓取失败订单号
+- 新增 最后一次通信时间
+- 新增 **trade.tmall.hk** 域名下的抓取
+
+
+**最后一次通信时间** 可以知道 抓取是否正在工作
+
+
+通常停止工作的原因如下：
+
+- 当前登录帐号的订单号已经全部抓取完毕
+- 抓取页面不在注入范围内
+- 程序报错
+
+
+目前已经在以下页面注入脚本：
+
+```
+"*://buyertrade.taobao.com/trade/detail/trade_item_detail.htm*",
+"*://tmtrade.yao.95095.com/detail/order_detail.htm*",
+"*://trade.tmall.com/detail/orderDetail.htm?*",       
+"*://trade.tmall.hk/detail/order_detail.htm?*"  
+```
+
+
+>v0.0.3
+
+- 订单号数据存储重构-划分分片存储，索引表关联
+
+- 修复 订单 id 数量大的情况下 数据通信保存不了
+
+- 新增 账户类型切换 自动填写默认 提交地址
+
+- 增加 http://yao.95095.com/ 域名下的抓取
+
+```
+ 请在使用新版本之前 右击右上角的 红色图标 点击从 chrome 移除选择，在拖拽安装;
+```
+
+>v0.0.2
+
+- init
 
 ## 安装说明
 
@@ -33,6 +94,15 @@ categories:
 ![](https://raw.githubusercontent.com/browser-extensions/PanCrawl/master/help/PanCrawlHelp.gif)
 
 
+## 抓取失败
+
+> 抓取失败的订单 通常有以下几种错误
+
+- 订单号不属于当前登录的淘宝帐号
+- 订单号状态还没有发货
+- 网络加载失败
+- 淘宝元素页面改动
+- ...
 
 ## 操作演示
 
@@ -49,5 +119,37 @@ categories:
 
 
 ![](https://raw.githubusercontent.com/browser-extensions/PanCrawl/master/help/caozuo.gif)
+
+
+
+## 一台电脑同时抓取多个帐号
+
+> 操作很简单 您只需要安装多个 浏览器即可
+
+> 每个浏览器配置好 扩展、 启动抓取脚本,
+
+> 就可以安心的把浏览器最小化，接着配置下一个浏览器抓取帐号,然后以此类推
+
+> 如果您电脑安装了 谷歌浏览器 、360极速浏览器 、百度浏览器 、qq浏览器 、猎豹浏览器，
+
+> 那么就可以同时抓取 5个帐号的订单了
+
+```
+为何一个浏览器不可以同时抓取 多个帐号的订单,原因很简单,一个浏览器你能同时登录多个淘宝帐号吗？
+
+如果一个浏览器能同时登录多个淘宝帐号,那本脚本也可以同时抓取多个帐号订单！ (*^__^*) 嘻嘻
+
+```
+
+
+## 360极速浏览器安装
+
+> 找到浏览器的扩展程序页面 拖拽进去安装
+
+![](https://raw.githubusercontent.com/browser-extensions/PanCrawl/master/help/360chrome.gif)
+
+
+
+
 
 

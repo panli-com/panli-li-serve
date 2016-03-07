@@ -13,8 +13,8 @@ categories:
 
 ### 获取nvm
 
-```ssh
-root@iZ28krk4xlkZ:/home/git/node# git clone https://github.com/creationix/nvm.git
+```bash
+root@iZ28krk4xlkZ:/home/git/node#   git clone https://github.com/creationix/nvm.git
 Cloning into 'nvm'...
 remote: Counting objects: 4399, done.
 remote: Compressing objects: 100% (20/20), done.
