@@ -15,9 +15,12 @@ categories:
 ## 下载地址
 
 - [谷歌浏览器下载](http://rj.baidu.com/soft/detail/14744.html?ald)
+- [360极速浏览器](http://chrome.360.cn/)
+- [猎豹浏览器](http://www.liebao.cn/)
 
 - [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=20160314)
 
+>请不要使用360安全浏览器
 
 ## 版本更新 (当前最新版本 v0.0.7)
 
@@ -155,6 +158,15 @@ categories:
 > 找到浏览器的扩展程序页面 拖拽进去安装
 
 ![](https://raw.githubusercontent.com/browser-extensions/PanCrawl/master/help/360chrome.gif)
+
+
+## 猎豹浏览器安装
+
+> 点击左上角大豹子头像,鼠标滑到 ->工具 -> 我的应用 拖拽进去安装
+> 或者浏览器地址 输入 `liebao://settings-frame/extensions` 进入我的应用 把插件拖拽进去安装
+
+记住一定要把 **允许访问敏感页面** 勾上 否则无法执行脚本
+
 
 
 
