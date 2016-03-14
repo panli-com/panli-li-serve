@@ -15,8 +15,8 @@ categories:
 ## 下载地址
 
 - [谷歌浏览器下载](http://rj.baidu.com/soft/detail/14744.html?ald)
-- [360极速浏览器](http://chrome.360.cn/)
-- [猎豹浏览器](http://www.liebao.cn/)
+- [360极速浏览器](http://chrome.360.cn/?url=zanjs.com)
+- [猎豹浏览器](http://www.liebao.cn/?url=zanjs.com)
 
 - [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=20160314)
 
