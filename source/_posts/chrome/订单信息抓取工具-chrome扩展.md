@@ -16,18 +16,26 @@ categories:
 
 - [谷歌浏览器下载](http://rj.baidu.com/soft/detail/14744.html?ald)
 
-- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=2016030403)
+- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=20160314)
 
 
-## 版本更新 (当前最新版本 v0.0.5)
+## 版本更新 (当前最新版本 v0.0.7)
 
 **请定期访问本页面查看最近版本号及时下载 、移除旧的、 重新安装新版**
+
+
+>v0.0.7 
+
+修复页面出现 `客官，现在网络繁忙，请稍候再试 ` 后无法继续执行脚本
+
+- 新增需要注入脚本的页面 `https://tradearchive.taobao.com/trade/detail/trade_item_detail.htm?biz_order_id=0`
+
 
 
 >v0.0.6
 
 - 凡是有支付宝交易号的 ，都提交到后台
-- 目前好像每个订单都会有支付宝交易号,因此失败订单号常规下 不会出现
+- 目前好像每个订单都会有支付宝交易号,因此常规下不会出现 失败订单号 
 
 
 >v0.0.5
