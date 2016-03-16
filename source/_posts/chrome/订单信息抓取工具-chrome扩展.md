@@ -9,7 +9,9 @@ categories:
 
 ## 介绍
 
-凡是基于 chrome 内核的 浏览器 都可以使用本 扩展: 例如市面上 常见的  qq浏览器 、百度浏览器 、360浏览器 、猎豹浏览器等等
+凡是基于 chrome 内核的 浏览器 都可以使用本 扩展: 例如市面上 常见的  qq浏览器 、百度浏览器 、360极速浏览器 、猎豹浏览器等等
+
+>测试过的浏览器都会在下面留下下载地址 。
 
 
 ## 下载地址
@@ -17,10 +19,16 @@ categories:
 - [谷歌浏览器下载](http://rj.baidu.com/soft/detail/14744.html?ald)
 - [360极速浏览器](http://chrome.360.cn/?url=zanjs.com)
 - [猎豹浏览器](http://www.liebao.cn/?url=zanjs.com)
+- [QQ浏览器](http://dldir1.qq.com/invc/tt/QQBrowser_Setup_9.3.6872.400.exe)
+- [百度浏览器](http://liulanqi.baidu.com/)
+- [UC浏览器](http://www.uc.cn/)
+- [搜狗浏览器](http://ie.sogou.com/)  目前搜索不稳定
 
 - [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=20160314)
 
->请不要使用360安全浏览器
+
+>[x]请下载最新版本的浏览器,速度够快
+>[x]请不要使用360安全浏览器
 
 ## 版本更新 (当前最新版本 v0.0.7)
 
@@ -97,7 +105,7 @@ categories:
 
 - 安装 基于 chrome 内核的浏览器 (最好谷歌浏览器，以下操作全部基于 谷歌浏览器)
 
-- 打开浏览器在 **地址栏 ** 输入 `chrome://extensions/`
+- 打开浏览器在 **地址栏 ** 输入 `chrome://extensions/`  (注意,次地址是谷歌浏览器地址,其他浏览器请看下面安装信息)
 
 - 把得到的 **PanCrawl.crx** 文件拖拽到 浏览器里 稍等几秒既可以安装
 
@@ -115,6 +123,7 @@ categories:
 - 淘宝元素页面改动
 - ...
 
+
 ## 操作演示
 
 点击右上角的 **红色蜘蛛网的 LOGO** ,然后点击 **更多配置** ，进入后台操作界面。 
@@ -130,6 +139,12 @@ categories:
 
 
 ![](https://raw.githubusercontent.com/browser-extensions/PanCrawl/master/help/caozuo.gif)
+
+## 提示信息帮助？
+
+> 出现 `保存数据出错` 说明 本地存储的订单号 已经没有了 需要再次点击获取订单号
+> 如果还出现 错误, 点击 `清除数据` 按钮 关闭浏览器重新启动 填写信息
+> 如果发现订单详情页面 不动了 , F5 刷新一下页面 等等几秒 后观察是否正常可以抓取下一个
 
 
 
@@ -156,6 +171,7 @@ categories:
 ## 360极速浏览器安装
 
 > 找到浏览器的扩展程序页面 拖拽进去安装
+> 或者打开360极速浏览器 在地址输入 `chrome://myextensions/extensions/` 把扩展文件拖拽进去安装
 
 ![](https://raw.githubusercontent.com/browser-extensions/PanCrawl/master/help/360chrome.gif)
 
@@ -166,6 +182,45 @@ categories:
 > 或者浏览器地址 输入 `liebao://settings-frame/extensions` 进入我的应用 把插件拖拽进去安装
 
 记住一定要把 **允许访问敏感页面** 勾上 否则无法执行脚本
+
+
+勾选后记得重启下
+
+![](https://raw.githubusercontent.com/browser-extensions/PanCrawl/master/help/liebaomin.png)
+
+
+
+## QQ浏览器安装
+
+> 点击右上菜单按钮,然后进入  **应用中心**  把插件拖拽进去安装
+> 或者浏览器地址 输入 `qqbrowser://extensions/index` 进入应用中心 把插件拖拽进去安装
+
+
+## 百度浏览器安装
+
+> 点击右上菜单按钮,然后进入  **我的应用**  把插件拖拽进去安装
+> 或者浏览器地址 输入 `bdbrowser://settings` 进入我的应用  ** 把插件拖拽** 进去安装
+
+
+
+
+## UC浏览器安装
+
+> 点击左上LOGO,然后进入 -> 插件  就进入 **插件中心**  把插件拖拽进去安装
+> 或者浏览器地址 输入 `http://extensions.uc.cn/newindex.htm#!hot/recommendation` 进入我的应用  ** 把插件拖拽** 进去安装
+
+
+
+## 搜狗浏览器安装 
+
+> 点击右上角 工具 -> 选项 -> 扩展管理 -> 显示更多扩展  就进入 **插件中心** 了  把插件拖拽进去安装
+> 或者浏览器地址 输入 `http://ie.sogou.com/app/` 进入插件中心  ** 把插件拖拽** 进去安装
+
+搜狗浏览器会给予风险提醒 请勾选 **我信任此扩展,仍要继续安装**
+
+>目前搜索不稳定
+
+
 
 
 
