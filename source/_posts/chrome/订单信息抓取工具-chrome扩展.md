@@ -22,17 +22,23 @@ categories:
 - [QQ浏览器](http://dldir1.qq.com/invc/tt/QQBrowser_Setup_9.3.6872.400.exe)
 - [百度浏览器](http://liulanqi.baidu.com/)
 - [UC浏览器](http://www.uc.cn/)
-- [搜狗浏览器](http://ie.sogou.com/)  目前搜索不稳定
+- [搜狗浏览器](http://ie.sogou.com/)  目前不稳定
 
-- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=20160314)
+- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=20160316)
 
 
 >[x]请下载最新版本的浏览器,速度够快
 >[x]请不要使用360安全浏览器
 
-## 版本更新 (当前最新版本 v0.0.7)
+## 版本更新 (当前最新版本 v0.0.8)
 
 **请定期访问本页面查看最近版本号及时下载 、移除旧的、 重新安装新版**
+
+
+
+>v0.0.8
+
+优化加载引擎,执行效率更高
 
 
 >v0.0.7 
@@ -145,6 +151,7 @@ categories:
 > 出现 `保存数据出错` 说明 本地存储的订单号 已经没有了 需要再次点击获取订单号
 > 如果还出现 错误, 点击 `清除数据` 按钮 关闭浏览器重新启动 填写信息
 > 如果发现订单详情页面 不动了 , F5 刷新一下页面 等等几秒 后观察是否正常可以抓取下一个
+> 请定期清理数据,点击 `清除数据` 按钮
 
 
 
