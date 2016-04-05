@@ -41,6 +41,8 @@ tags:
 
 - [Panli组件-PC](https://www.npmjs.com/package/panli)
 
+- [高性能模板引擎](https://www.npmjs.com/package/tuma)
+
 - [react-ui 组件](http://zanjs.com/react-ui/)
 
 - [git 工具 gitpu](https://www.npmjs.com/package/gitpu)
