@@ -1,7 +1,6 @@
 title: ubuntu下搭建最新版和各种版本Node.js环境
 date: 2016-02-17 14:43:31
 tags:
-tags:
   - node.js
   - ubuntu
   - node

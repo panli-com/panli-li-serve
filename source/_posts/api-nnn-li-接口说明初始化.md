@@ -1,13 +1,12 @@
 title: api.nnn.li 接口说明初始化
 date: 2015-12-16 17:59:33
 tags:
-tags:
   - api
   - nodejs
   - javascript
   - ip
 categories:
-  - nodejs
+  - javascript
 ---
 
 ## 开放接口 

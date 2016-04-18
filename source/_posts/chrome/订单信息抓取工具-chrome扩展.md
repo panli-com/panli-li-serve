@@ -24,15 +24,20 @@ categories:
 - [UC浏览器](http://www.uc.cn/)
 - [搜狗浏览器](http://ie.sogou.com/)  目前不稳定
 
-- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=20160316)
+- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=20160416)
 
 
 >[x]请下载最新版本的浏览器,速度够快
 >[x]请不要使用360安全浏览器
 
-## 版本更新 (当前最新版本 v0.0.8)
+## 版本更新 (当前最新版本 v0.0.9)
 
 **请定期访问本页面查看最近版本号及时下载 、移除旧的、 重新安装新版**
+
+
+>v0.0.9
+
+增加 1688 订单抓取
 
 
 
