@@ -1,4 +1,4 @@
-title: 订单信息抓取工具-chrome扩展
+title: 订单信息抓取工具-chrome扩展 2016年05月11日15:55:15更新
 date: 2016-03-02 08:55:44
 tags:
   - chrome扩展
@@ -24,15 +24,22 @@ categories:
 - [UC浏览器](http://www.uc.cn/)
 - [搜狗浏览器](http://ie.sogou.com/)  目前不稳定
 
-- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/PanCrawl.crx?v=20160416)
+- [抓取扩展下载 https://nnn.li/chrome/PanCrawl.crx](https://nnn.li/chrome/src.crx?v=20160511)
 
 
 >[x]请下载最新版本的浏览器,速度够快
 >[x]请不要使用360安全浏览器
 
-## 版本更新 (当前最新版本 v0.0.9)
+## 版本更新 (当前最新版本 v0.1.0)
 
 **请定期访问本页面查看最近版本号及时下载 、移除旧的、 重新安装新版**
+
+
+v0.1.0
+天猫页面 react 重构
+
+导致分解信息失败
+
 
 
 >v0.0.9
