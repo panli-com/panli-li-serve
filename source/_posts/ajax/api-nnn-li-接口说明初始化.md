@@ -5,8 +5,10 @@ tags:
   - nodejs
   - javascript
   - ip
+  - ajax
 categories:
   - javascript
+  - api
 ---
 
 ## 开放接口 
