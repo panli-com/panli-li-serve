@@ -30,8 +30,6 @@ localtunnel是基于node.js的一个模块，所以首先需要安装node.js和n
 假设本地服务器在81端口，我们可以通过下面的命令把本地服务器暴露到公网中
 
 ```
-
-
 $   lt --port 81
 your url is: https://ouumalrvoi.localtunnel.me
 
@@ -43,8 +41,8 @@ your url is: https://ouumalrvoi.localtunnel.me
 如果想通过固定的域名访问，则可以通过以下命令进行设置，成功后可通过 `https://zanjs.localtunnel.me` 而访问到本地服务器。
 
 ```
-$   lt --subdomain mike --port 81
-$   lt -s mike -p 81
+$   lt --subdomain zanjs --port 81
+$   lt -s zanjs -p 81
 ```
 
 
@@ -88,7 +86,7 @@ $   pm2 --name lt start bin/server -- --port 2000
 
 ```
 #host后面不要加/
-$lt --host http://zanjs.me:2000 --port 81
+$   lt --host http://zanjs.me:2000 --port 81
 your url is: http://zanjs.me:2000
 ```
 
@@ -102,7 +100,7 @@ your url is: http://zanjs.me:2000
 
 在Github 上面有一份Nginx的配置，我们可以直接使用，或者按照自己的需要做些修改。
 
-```nginx
+```
 proxy_http_version 1.1;
 
 # http://nginx.org/en/docs/http/websocket.html
@@ -177,7 +175,7 @@ server {
 
 ```
 #subdomain限制长度为4 ~ 63
-$lt --host http://tunnel.zanjs.me:2000 --port 81 --subdomain mysubdomain
+$   lt --host http://tunnel.zanjs.me:2000 --port 81 --subdomain mysubdomain
 your url is: http://mysubdomain.tunnel.zanjs.me:2000
 ```
 
